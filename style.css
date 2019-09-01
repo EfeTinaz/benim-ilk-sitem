@@ -4,7 +4,7 @@ body {
   font-family: monospace;
 }
 #birinciBölüm {
-  background-color: aqua;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -17,11 +17,11 @@ body {
 }
 .fotograf {
   background-color: blue;
-  width: 100%;
+  width: 90%;
   flex: 3;
 }
 .sosyalMedya {
-  background-color: rgb(224, 203, 9);
+  
   flex: 1;
 }
 .yetenekler {
