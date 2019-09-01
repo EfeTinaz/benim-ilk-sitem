@@ -1,0 +1,51 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: monospace;
+}
+#birinciBölüm {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.b1 {
+  padding: 20px;
+  margin: 20px;
+}
+.fotograf {
+  background-color: blue;
+  width: 100%;
+  flex: 3;
+}
+.sosyalMedya {
+  background-color: rgb(224, 203, 9);
+  flex: 1;
+}
+.yetenekler {
+  background-color: white;
+  flex: 5;
+}
+
+#ikinciBölüm {
+  text-align: center;
+  background-color: coral;
+}
+#ücüncüBölüm {
+  color: white;
+  background-color: rgb(32, 145, 173);
+}
+
+#sinan {
+  margin-top: 10px;
+  font-size: 24px;
+
+  text-align: center;
+}
+
+.yetenekler img {
+  height: 40px;
+  width: 40px;
+}
