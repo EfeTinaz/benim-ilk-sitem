@@ -3,6 +3,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 1;
   padding: 0px;
   margin: 0px;
   font-family: monospace;
@@ -65,3 +66,14 @@ body {
   width: 40px;
 }
 
+#kuskus{
+  margin-top: 10px;
+  font-size: 24px;
+
+  text-align: center; 
+}
+.ayar{
+  padding: 5px;
+  border: 5px;
+  margin: 5px;
+}
