@@ -1,10 +1,13 @@
 body {
+  background-image: url("şahmelek.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 0px;
   margin: 0px;
   font-family: monospace;
 }
 #birinciBölüm {
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12,16 +15,16 @@ body {
 }
 
 .b1 {
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
 }
 .fotograf {
-  background-color: blue;
+  justify-content: center;
   width: 90%;
   flex: 3;
+  border-radius: 20px;
 }
 .sosyalMedya {
-  
+  border: 1p solid;
   flex: 1;
 }
 .yetenekler {
@@ -49,3 +52,16 @@ body {
   height: 40px;
   width: 40px;
 }
+
+#tinaz {
+  width: 40px;
+}
+
+.silici {
+  list-style-type: none;
+}
+
+.snap {
+  width: 40px;
+}
+
